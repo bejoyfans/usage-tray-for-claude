@@ -43,7 +43,10 @@
     "no_readme": "找不到說明檔。",
     "already_running": "Claude 額度小工具已經在執行了，請看螢幕右下角的系統匣（點「^」展開）。",
     "btn_open": "開啟使用量頁面來更新",
-    "upd_ago_h": "資料更新於 {h} 小時 {m} 分鐘前"
+    "upd_ago_h": "資料更新於 {h} 小時 {m} 分鐘前",
+    "menu_support": "贊助這個專案",
+    "support_kofi": "Ko-fi（PayPal，國外使用者）",
+    "support_ecpay": "綠界（台灣：信用卡 / ATM / 超商）"
   },
   "ps": {
     "detected": "偵測到預設瀏覽器：{name}",

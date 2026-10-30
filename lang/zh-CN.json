@@ -43,7 +43,10 @@
     "no_readme": "找不到说明文件。",
     "already_running": "Claude 额度小工具已在运行，请查看屏幕右下角的系统托盘（点击“^”展开）。",
     "btn_open": "打开使用量页面来更新",
-    "upd_ago_h": "数据更新于 {h} 小时 {m} 分钟前"
+    "upd_ago_h": "数据更新于 {h} 小时 {m} 分钟前",
+    "menu_support": "赞助这个项目",
+    "support_kofi": "Ko-fi（PayPal，海外用户）",
+    "support_ecpay": "绿界（台湾：信用卡 / ATM / 便利店）"
   },
   "ps": {
     "detected": "检测到默认浏览器：{name}",

@@ -1,0 +1,5 @@
+{
+  "_comment": "Donation links shown in the tray menu (Support). Leave empty to hide. Must start with https://",
+  "kofi": "",
+  "ecpay": ""
+}

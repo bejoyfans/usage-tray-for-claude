@@ -43,7 +43,10 @@
     "no_readme": "README file not found.",
     "already_running": "Claude Usage is already running. Look in the system tray (click ^ to expand).",
     "btn_open": "Open usage page to update",
-    "upd_ago_h": "Updated {h} h {m} min ago"
+    "upd_ago_h": "Updated {h} h {m} min ago",
+    "menu_support": "Support this project",
+    "support_kofi": "Ko-fi (PayPal, international)",
+    "support_ecpay": "ECPay (Taiwan: card / ATM / convenience store)"
   },
   "ps": {
     "detected": "Default browser detected: {name}",

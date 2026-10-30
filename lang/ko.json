@@ -43,7 +43,10 @@
     "no_readme": "README 파일을 찾을 수 없습니다.",
     "already_running": "Claude 사용량이 이미 실행 중입니다. 화면 오른쪽 아래 시스템 트레이(^를 눌러 펼치기)를 확인하세요.",
     "btn_open": "사용량 페이지 열어 업데이트",
-    "upd_ago_h": "{h}시간 {m}분 전에 업데이트됨"
+    "upd_ago_h": "{h}시간 {m}분 전에 업데이트됨",
+    "menu_support": "이 프로젝트 후원하기",
+    "support_kofi": "Ko-fi (PayPal, 해외)",
+    "support_ecpay": "ECPay (대만: 카드 / ATM / 편의점)"
   },
   "ps": {
     "detected": "기본 브라우저 감지됨: {name}",

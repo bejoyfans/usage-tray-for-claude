@@ -74,6 +74,7 @@ copy /y "%~dp0claude-usage-bridge-firefox.xpi" "%DEST%\claude-usage-bridge-firef
 xcopy /e /i /y /q "%~dp0lang" "%DEST%\lang" >nul
 xcopy /e /i /y /q "%~dp0docs" "%DEST%\docs" >nul
 copy /y "%~dp0open_extensions.ps1" "%DEST%\open_extensions.ps1" >nul
+if exist "%~dp0support.json" copy /y "%~dp0support.json" "%DEST%\support.json" >nul
 copy /y "%~dp0detect_lang.ps1" "%DEST%\detect_lang.ps1" >nul
 copy /y "%~dp0UNINSTALL.bat" "%DEST%\uninstall.bat" >nul
 copy /y "%~dp0docs\README.en.txt" "%DEST%\README.txt" >nul

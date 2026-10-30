@@ -442,6 +442,22 @@ def open_usage_page():
         pass
 
 
+def support_links():
+    """[(menu label key, url)] from support.json, Taiwan option first for Traditional Chinese. Empty = hide the menu."""
+    try:
+        d = json.loads((BASE_DIR / "support.json").read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    out = []
+    for key in ("kofi", "ecpay"):
+        url = d.get(key) if isinstance(d, dict) else None
+        if isinstance(url, str) and url.startswith("https://") and len(url) < 300:
+            out.append(("support_" + key, url))
+    if CUR_LANG == "zh-TW":
+        out.sort(key=lambda x: x[0] != "support_ecpay")
+    return out
+
+
 # ---------------------------------------------------------------- only one copy at a time
 _MUTEX = None
 
@@ -570,6 +586,11 @@ class TrayApp:
             return M(label, act, checked=lambda item: self.cfg.get("language", "auto") == code, radio=True)
 
         lang_menu = Menu(lang_item(t("menu_lang_auto"), "auto"), *[lang_item(n, c) for c, n in langs.items()])
+
+        def link_item(key, url):
+            return M(t(key), lambda i, it: webbrowser.open(url))
+        links = support_links()
+        support = [M(t("menu_support"), Menu(*[link_item(k, u) for k, u in links]))] if links else []
         return Menu(
             M(t("menu_show"), lambda i, it: SH.q.put(("toggle",)), default=True),
             M(t("menu_refresh"), lambda i, it: open_usage_page()),
@@ -577,6 +598,7 @@ class TrayApp:
                                    mode_item(t("menu_mode_code"), "code"))),
             M(t("menu_language"), lang_menu),
             M(t("menu_autostart"), self.on_autostart, checked=lambda it: is_autostart()),
+            *support,
             M(t("menu_help"), self.on_help),
             M(t("menu_uninstall"), self.on_uninstall),
             Menu.SEPARATOR,

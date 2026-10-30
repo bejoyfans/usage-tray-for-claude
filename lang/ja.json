@@ -43,7 +43,10 @@
     "no_readme": "README ファイルが見つかりません。",
     "already_running": "Claude 使用量はすでに実行中です。画面右下のシステムトレイ（「^」をクリックして展開）を確認してください。",
     "btn_open": "使用量ページを開いて更新",
-    "upd_ago_h": "{h} 時間 {m} 分前に更新"
+    "upd_ago_h": "{h} 時間 {m} 分前に更新",
+    "menu_support": "このプロジェクトを支援",
+    "support_kofi": "Ko-fi（PayPal・海外向け）",
+    "support_ecpay": "ECPay（台湾：カード / ATM / コンビニ）"
   },
   "ps": {
     "detected": "既定のブラウザーを検出しました: {name}",
