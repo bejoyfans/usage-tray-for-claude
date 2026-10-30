@@ -59,6 +59,8 @@ This tool is free and always will be. If it helps you, you can buy me a coffee �
 
 [![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/bejoyfans)
 
+In Taiwan: [ECPay (card / ATM / convenience store)](https://p.ecpay.com.tw/4D6FB3D)
+
 ## License
 
 [MIT](LICENSE)
@@ -106,6 +108,7 @@ claude.ai 沒有公開的用量 API。瀏覽器擴充功能只在**你自己打�
 
 這個工具永久免費。如果它對你有幫助，歡迎請我喝杯咖啡，讓我能在 claude.ai 改版時持續更新。
 
+- 台灣使用者：[綠界贊助（信用卡 / ATM / 超商）](https://p.ecpay.com.tw/4D6FB3D)
 - 國外使用者：[Ko-fi（PayPal）](https://ko-fi.com/bejoyfans)
 
 ### 授權
