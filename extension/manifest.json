@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Usage Bridge",
+  "version": "1.2.0",
+  "description": "Unofficial. When you open claude.ai Settings > Usage, passes the numbers shown there to the local tray program. Never opens pages by itself.",
+  "host_permissions": [
+    "https://claude.ai/*",
+    "http://127.0.0.1:47821/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open the Claude usage page"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
