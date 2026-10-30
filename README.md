@@ -53,6 +53,12 @@ Copy `lang/en.json`, `lang/en.cmd` and `docs/README.en.txt` to your language cod
 - Japanese / Korean page parsing is best-effort — please open an issue with a screenshot if it fails.
 - Windows only (the tray program). Built with Python, pystray and Pillow.
 
+## Support
+
+This tool is free and always will be. If it helps you, you can buy me a coffee — it keeps the project updated when claude.ai changes.
+
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/bejoyfans)
+
 ## License
 
 [MIT](LICENSE)
@@ -95,6 +101,12 @@ claude.ai 沒有公開的用量 API。瀏覽器擴充功能只在**你自己打�
 ### 移除
 
 系統匣選單 →「移除…」，或連點 `UNINSTALL.bat`，再到瀏覽器移除擴充功能（移除程式會幫你打開那個頁面）。
+
+### 贊助
+
+這個工具永久免費。如果它對你有幫助，歡迎請我喝杯咖啡，讓我能在 claude.ai 改版時持續更新。
+
+- 國外使用者：[Ko-fi（PayPal）](https://ko-fi.com/bejoyfans)
 
 ### 授權
 
